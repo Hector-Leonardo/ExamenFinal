@@ -19,3 +19,68 @@ public static void llenarCigarros(){
     int Nombre = entradaDato.nextInt();
 }
 }
+package Models;
+public class Cigarros {
+    private int CantidaddeHojas;
+    private int TiempodePicado;
+    private int Aroma;
+    private int Azucar;
+    private int Nicotina;
+
+    public Cigarros() {
+    }
+
+    public Cigarros(int CantidaddeHojas, int TiempodePicado, int Aroma, int Azucar, int Nicotina) {
+        this.CantidaddeHojas = CantidaddeHojas;
+        this.TiempodePicado = TiempodePicado;
+        this.Aroma = Aroma;
+        this.Azucar = Azucar;
+        this.Nicotina = Nicotina;
+    }
+
+    public int getCantidaddeHojas() {
+        return CantidaddeHojas;
+    }
+
+    public void setCantidaddeHojas(int CantidaddeHojas) {
+        this.CantidaddeHojas = CantidaddeHojas;
+    }
+
+    public int getTiempodePicado() {
+        return TiempodePicado;
+    }
+
+    public void setTiempodePicado(int TiempodePicado) {
+        this.TiempodePicado = TiempodePicado;
+    }
+
+    public int getAroma() {
+        return Aroma;
+    }
+
+    public void setAroma(int Aroma) {
+        this.Aroma = Aroma;
+    }
+
+    public int getAzucar() {
+        return Azucar;
+    }
+
+    public void setAzucar(int Azucar) {
+        this.Azucar = Azucar;
+    }
+
+    public int getNicotina() {
+        return Nicotina;
+    }
+
+    public void setNicotina(int Nicotina) {
+        this.Nicotina = Nicotina;
+    }
+
+    @Override
+    public String toString() {
+        return "Cigarros{" + "CantidaddeHojas=" + CantidaddeHojas + ", TiempodePicado=" + TiempodePicado + ", Aroma=" + Aroma + ", Azucar=" + Azucar + ", Nicotina=" + Nicotina + '}';
+    }
+    
+}
