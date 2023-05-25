@@ -1,0 +1,21 @@
+package examen;
+import static examen.Examen.Cigarros.entradaDato;
+import java.util.Scanner;
+public class Examen {
+public static void main (String[] args){
+    llenarAuthor064374(); 
+}
+public class Cigarros {
+    static Scanner entradaDato =  new Scanner (System.in);
+    }
+public static void llenarAuthor064374(){
+    System.out.println("Nombre: Hector: ");
+    System.out.println("Matricula: 064374");
+    System.out.println("Correo: al064374@uacam.mx");   
+}
+public static void llenarCigarros(){
+    System.out.println("Ingrese los datos del Cigarro");
+    System.out.println("Cantidad de Hojas: ");
+    int Nombre = entradaDato.nextInt();
+}
+}
