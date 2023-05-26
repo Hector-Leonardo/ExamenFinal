@@ -51,7 +51,7 @@ public class principal {
         int total = 0;
         int excedente = 0;
         int cajetillas = 0;
-        int matricula = 71086;
+        int matricula = 64374;
         if (matricula % 2 == 0) {
             cajetillas = 14;
         } else {
