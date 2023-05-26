@@ -1,86 +1,11 @@
 package examen;
-import static examen.Examen.Cigarros.entradaDato;
-import java.util.Scanner;
+import static models.principal.totalCigarros;
+import static models.presentacion.llenarAuthor064374;
 public class Examen {
 public static void main (String[] args){
     llenarAuthor064374(); 
+    totalCigarros();
 }
-public class Cigarros {
-    static Scanner entradaDato =  new Scanner (System.in);
-    }
-public static void llenarAuthor064374(){
-    System.out.println("Nombre: Hector: ");
-    System.out.println("Matricula: 064374");
-    System.out.println("Correo: al064374@uacam.mx");   
-}
-public static void llenarCigarros(){
-    System.out.println("Ingrese los datos del Cigarro");
-    System.out.println("Cantidad de Hojas: ");
-    int Nombre = entradaDato.nextInt();
-}
-}
-package Models;
-public class Cigarros {
-    private int CantidaddeHojas;
-    private int TiempodePicado;
-    private int Aroma;
-    private int Azucar;
-    private int Nicotina;
 
-    public Cigarros() {
-    }
-
-    public Cigarros(int CantidaddeHojas, int TiempodePicado, int Aroma, int Azucar, int Nicotina) {
-        this.CantidaddeHojas = CantidaddeHojas;
-        this.TiempodePicado = TiempodePicado;
-        this.Aroma = Aroma;
-        this.Azucar = Azucar;
-        this.Nicotina = Nicotina;
-    }
-
-    public int getCantidaddeHojas() {
-        return CantidaddeHojas;
-    }
-
-    public void setCantidaddeHojas(int CantidaddeHojas) {
-        this.CantidaddeHojas = CantidaddeHojas;
-    }
-
-    public int getTiempodePicado() {
-        return TiempodePicado;
-    }
-
-    public void setTiempodePicado(int TiempodePicado) {
-        this.TiempodePicado = TiempodePicado;
-    }
-
-    public int getAroma() {
-        return Aroma;
-    }
-
-    public void setAroma(int Aroma) {
-        this.Aroma = Aroma;
-    }
-
-    public int getAzucar() {
-        return Azucar;
-    }
-
-    public void setAzucar(int Azucar) {
-        this.Azucar = Azucar;
-    }
-
-    public int getNicotina() {
-        return Nicotina;
-    }
-
-    public void setNicotina(int Nicotina) {
-        this.Nicotina = Nicotina;
-    }
-
-    @Override
-    public String toString() {
-        return "Cigarros{" + "CantidaddeHojas=" + CantidaddeHojas + ", TiempodePicado=" + TiempodePicado + ", Aroma=" + Aroma + ", Azucar=" + Azucar + ", Nicotina=" + Nicotina + '}';
-    }
     
 }
